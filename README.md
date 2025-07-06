@@ -39,8 +39,16 @@ Press F5 to run with debugger attached.
 - `compare_timezones(timezones[])` - Multi-zone comparison
 - `convert_time(datetime, from_zone, to_zone)` - Time conversion
 
+## Installation
+
+1. Install required Python packages:
+```bash
+pip install mcp aiohttp
+```
+
 ## Configuration
-Add to Claude Desktop config:
+
+2. Add to Claude Desktop config:
 ```json
 {
   "mcpServers": {
@@ -51,3 +59,5 @@ Add to Claude Desktop config:
   }
 }
 ```
+
+3. Restart Claude Desktop
